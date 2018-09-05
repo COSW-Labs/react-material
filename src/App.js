@@ -21,7 +21,6 @@ class App extends Component {
 
         localStorage.setItem('user', "fabian");
         localStorage.setItem('password', "fabian");
-        localStorage.setItem('isLoggedIn', false);
     }
 
     handleTextChange(e) {
